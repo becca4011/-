@@ -1,0 +1,54 @@
+<html>
+<head><title>13주차 실습과제</title>
+<style>
+	body {background-color:lightblue;margin:20;}
+	fieldset {border:skyblue 3 solid;width:350;padding:10;text-align:left;}
+	legend {text-align:center;}
+	input[type=submit] {background-color:pink;font-size:15;font-weight:bold;padding:10 17;}
+	input[type=reset] {background-color:skyblue;font-size:15;font-weight:bold;padding:10 17;}
+	h1 {color:coral;font-family:"함초롬바탕";text-align:center;}
+	h2 {color:white;font-family:"함초롬바탕";text-align:right;}
+	div {text-align:right;}
+</style>
+</head>
+<body>
+<h1>전산기초실습 실습과제</h1>
+<h2>학번: 00000000 이름: 000</h2>
+<hr color=silver>
+<form method="post" action=#>
+<center>
+	<fieldset>
+		<legend align=center>설문 조사</legend>
+		1. 당신의 성별은?<p>
+		<input type="radio" name="gender" value="남">남
+		<input type="radio" name="gender" value="여">여<br><br><br>
+		
+		2. 당신의 나이는?
+		<input type="text" name="age" size=5>세<br><br><br>
+
+		3. 당신의 직업은?<p>
+		<select name="jop" size=3>
+			<option value="학생">학생
+			<option value="전문직">전문직
+			<option value="공무원">공무원
+			<option value="기타">기타
+		</select><br><br><br>
+
+		4. 가장 좋아하는 색상은?<p>
+		<input type="checkbox" name="color" value="빨강">빨강
+		<input type="checkbox" name="color" value="노랑">노랑
+		<input type="checkbox" name="color" value="파랑">파랑
+		<input type="checkbox" name="color" value="초록">초록<br><br><br>
+
+		5. 여행하고 싶은 나라는?<p>
+		<input type="text" name="tour" size=40><br><br>
+
+		<div>
+		<input type="submit" value="전송">
+		<input type="reset" value="취소">
+		</div>
+	</fieldset>
+</center>
+</form>
+</body>
+</html>
